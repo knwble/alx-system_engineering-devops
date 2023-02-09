@@ -25,3 +25,4 @@ Let’s move
 remove file emacs
 tree
 File type: School
+0x01. Shell, permissions
