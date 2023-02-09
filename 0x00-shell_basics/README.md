@@ -24,3 +24,4 @@ Copy HTML files
 Let’s move
 remove file emacs
 tree
+File type: School
