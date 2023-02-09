@@ -4,3 +4,4 @@ groups
 Change user
 empty file
 add permission
+6-multiple_permissions
