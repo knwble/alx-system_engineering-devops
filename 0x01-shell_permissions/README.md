@@ -8,3 +8,5 @@ add permission
 7-everybody
 8-James_Bond
 9-John_Doe
+9-John_Doe
+9-John_Doe
