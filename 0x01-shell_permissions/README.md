@@ -8,3 +8,4 @@ betty 1-who_am_i groups Change user empty file add permission 6-multiple_permiss
 7-everybody
 7-everybody
 102-if_only
+101-symbolic_link_permissions
