@@ -6,3 +6,4 @@ betty 1-who_am_i groups Change user empty file add permission 6-multiple_permiss
 100-change_owner_and_group
  103-Star_Wars
 7-everybody
+7-everybody
