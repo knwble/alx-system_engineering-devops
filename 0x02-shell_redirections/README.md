@@ -18,3 +18,4 @@ Being unique is better than being perfect
 count that word
 what next
 i hate bins
+Letters only please
