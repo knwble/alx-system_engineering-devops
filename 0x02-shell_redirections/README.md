@@ -2,3 +2,4 @@ write a script that prints “Hello, World”, followed by a new line to the sta
 Smiley
 cat /etc/passwd
 2 Cats
+last 10 lines
