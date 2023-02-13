@@ -10,3 +10,4 @@ best school
 Best School
 Save current state of directory
 duplicate last line
+No more javascript
