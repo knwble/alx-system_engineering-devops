@@ -6,3 +6,4 @@ last 10 lines
 First 5 lines
 first 5
 3rd line
+best school
