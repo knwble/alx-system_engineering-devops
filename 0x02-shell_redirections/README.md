@@ -11,3 +11,4 @@ Best School
 Save current state of directory
 duplicate last line
 No more javascript
+Don't just count your directories, make your directories count
