@@ -9,3 +9,4 @@ first 5
 best school
 Best School
 Save current state of directory
+duplicate last line
