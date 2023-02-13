@@ -3,3 +3,4 @@ Smiley
 cat /etc/passwd
 2 Cats
 last 10 lines
+First 5 lines
