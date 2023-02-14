@@ -13,3 +13,4 @@ love exponent breath
 12 combination
 13 floats
 Decimal to Hexedecimal
+decimal to hex
