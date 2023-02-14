@@ -4,3 +4,4 @@
 3. If the path be beautiful, let us not ask where it leads
 Global variables
 local variables
+6 Create local variable
