@@ -9,3 +9,4 @@ local variables
 8 True Knowledge
 divine and rule
 love exponent breath
+11 binary to decimal
