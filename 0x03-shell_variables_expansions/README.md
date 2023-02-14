@@ -8,3 +8,4 @@ local variables
 7 Create Global Variable
 8 True Knowledge
 divine and rule
+love exponent breath
