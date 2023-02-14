@@ -15,3 +15,4 @@ love exponent breath
 Decimal to Hexedecimal
 decimal to hex
 15 encryption
+17 add two numbers
