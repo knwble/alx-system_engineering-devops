@@ -5,3 +5,4 @@
 Global variables
 local variables
 6 Create local variable
+7 Create Global Variable
