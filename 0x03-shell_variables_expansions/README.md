@@ -12,3 +12,4 @@ love exponent breath
 11 binary to decimal
 12 combination
 13 floats
+Decimal to Hexedecimal
