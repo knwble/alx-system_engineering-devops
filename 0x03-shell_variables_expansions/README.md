@@ -7,3 +7,4 @@ local variables
 6 Create local variable
 7 Create Global Variable
 8 True Knowledge
+divine and rule
