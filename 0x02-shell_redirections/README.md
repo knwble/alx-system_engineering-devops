@@ -1,30 +1,28 @@
-write a script that prints “Hello, World”, followed by a new line to the standard output.
-Smiley
-cat /etc/passwd
-2 Cats
-last 10 lines
-First 5 lines
-first 5
-3rd line
-best school
-Best School
-Save current state of directory
-duplicate last line
-No more javascript
-Don't just count your directories, make your directories count
-What’s new
-Being unique is better than being perfect
-14. It must be in that file
-count that word
-what next
-i hate bins
-Letters only please
-A to Z
-Without C, you would live in hiago
-Reverse
-reverse
-DJ Cut Killer
-Empty casks make the most noise
-A gif is worth ten thousand words
-Acrotic
-The biggest fan
+# 0x02. Shell, I/O Redirections and filters
+0-hello_world
+1-confused_smiley
+2-hellofile
+3-twofiles
+4-lastlines
+5-firstlines
+6-third_line
+7-file
+8-cwd_state
+9-duplicate_last_line
+10-no_more_js
+11-directories
+12-newest_files
+13-unique
+14-findthatword
+15-countthatword
+16-whatsnext
+17-hidethisword
+18-letteronly
+19-AZ
+20-hiago
+21-reverse
+22-users_and_homes
+100-empty_casks
+101-gifs
+102-acrostic
+103-the_biggest_fan
