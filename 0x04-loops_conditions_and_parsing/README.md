@@ -1,0 +1,12 @@
+# 0x04. Loops, conditions and parsing
+- Task 0: Create a RSA key pair. Share your public key in your answer file 0-RSA_public_key.pub.
+- Task 1: Write a Bash script that displays Holberton School 10 times.
+- Task 2: Write a Bash script that displays Holberton School 10 times.
+- Task 3: Write a Bash script that displays Holberton School 10 times.
+- Task 4: Write a Bash script that displays Holberton School 10 times, but for the 9th iteration, displays Holberton School and then Hi on a new line.
+- Task 5: Write a Bash script that loops from 1 to 10.
+- Task 6. Write a Bash script that displays numbers from 1 to 20.
+- Task 7: Write a Bash script that displays the time for 12 hours and 59 minutes.
+- Task 8: Write a Bash script that displays.
+- Task 9: Write a Bash script that gives you information about the holbertonschool file.
+- Task 10: Write a Bash script that displays numbers from 1 to 100.
