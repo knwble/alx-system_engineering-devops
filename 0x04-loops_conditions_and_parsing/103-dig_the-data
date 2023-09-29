@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Displays IP address followed by the HTTP status code sorted by occurences
+
+myfile="apache-access.log"
+awk -F' ' '{ print $1, $9}' $myfile | sort | uniq -c|sort -nr
