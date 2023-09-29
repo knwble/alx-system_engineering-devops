@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Checking characteristics of a file
+FILE=school
+if test -e "$FILE"
+then
+	echo "$FILE school file exists"
+	if test -s "$FILE"
+	then
+		echo "$FILE school file is not empty"
+	else
+		echo "$FILE school file is empty"
+	fi
+	if test -f "$FILE"
+	then
+		echo "$FILE school is a regular file"
+	fi
+else
+	echo "$FILE school file does not exist"
+fi

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # A script that displays Best School 9 times and Hi on the 10th using
-#a while loop 
+# a while loop
 
 i=0
 while [ $i -lt 10 ]
