@@ -35,6 +35,7 @@ What is an IP address?
 Is to devices connected to a network what postal address is to houses
 The unique identifier of a network interface
 Is a number that network devices use to connect to networks
+
 - Task 3: Questions:
 Let’s fill the empty parts in the drawing above.
 
@@ -47,9 +48,11 @@ It is a protocol that is transferring data in a fast way and might loss data alo
 Which statement is correct for the TCP worker:
 Have you received boxes x, y, z?
 May I increase the rate at which I am sending you boxes?
+
 - Task 4: Write a Bash script that displays listening ports:
 That only shows listening sockets
 That shows the PID and name of the program to which each socket belongs
+
 - Task 5: Write a Bash script that pings an IP address passed as an argument.
 Requirements:
 
