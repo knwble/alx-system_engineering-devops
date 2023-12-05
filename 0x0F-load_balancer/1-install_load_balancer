@@ -26,7 +26,7 @@ fi
 if ! grep -q "server 284492-web-02 52.87.24.245:80 check" /etc/haproxy/haproxy.cfg; then
     echo "server 284492-web-02 52.87.24.245 check" >> /etc/haproxy/haproxy.cfg
 fi
-        
+
 
 # Enable HAproxy init script
 if ! grep -q "ENABLED=1" /etc/default/haproxy; then
