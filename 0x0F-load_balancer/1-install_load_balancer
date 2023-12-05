@@ -24,7 +24,7 @@ if ! grep -q "server 284492-web-01 100.25.102.62:80 check" /etc/haproxy/haproxy.
     echo "server 284492-web-01 100.25.102.62:80 check" >> /etc/haproxy/haproxy.cfg
 fi
 if ! grep -q "server 284492-web-02 52.87.24.245:80 check" /etc/haproxy/haproxy.cfg; then
-    echo "server 284492-web-02 52.87.24.245 check" >> /etc/haproxy/haproxy.cfg
+    echo "server 284492-web-02 52.87.24.245:80 check" >> /etc/haproxy/haproxy.cfg
 fi
 
 
