@@ -6,31 +6,37 @@ sudo add-apt-repository -y ppa:vbernat/haproxy-2.8
 sudo apt-get update -y
 sudo apt-get install -y haproxy=2.8.\*
 
+echo "ENABLED=1" >> /etc/default/haproxy
+mv /etc/haproxy/haproxy.cfg{,.original}
+touch /etc/haproxy/haproxy.cfg
 
-if ! grep -q "listen http-in" /etc/haproxy/haproxy.cfg; then
-    echo "listen http-in" >> /etc/haproxy/haproxy.cfg
-fi
-if ! grep -q "bind \*:80" /etc/haproxy/haproxy.cfg; then
-    echo "bind *:80" >> /etc/haproxy/haproxy.cfg
-fi
-if ! grep -q "mode http" /etc/haproxy/haproxy.cfg; then
-    echo "mode http" >> /etc/haproxy/haproxy.cfg
-fi
+printf %s "global
+    log 127.0.0.1 local0 notice
+    maxconn 2000
+    user haproxy
+    group haproxy
 
-if ! grep -q "balance roundrobin" /etc/haproxy/haproxy.cfg; then
-    echo "balance roundrobin" >> /etc/haproxy/haproxy.cfg
-fi
-if ! grep -q "server 284492-web-01 100.25.102.62:80 check" /etc/haproxy/haproxy.cfg; then
-    echo "server 284492-web-01 100.25.102.62:80 check" >> /etc/haproxy/haproxy.cfg
-fi
-if ! grep -q "server 284492-web-02 52.87.24.245:80 check" /etc/haproxy/haproxy.cfg; then
-    echo "server 284492-web-02 52.87.24.245:80 check" >> /etc/haproxy/haproxy.cfg
-fi
+defaults
+    log     global
+    mode    http
+    option  httplog
+    option  dontlognull
+    retries 3
+    option redispatch
+    timeout connect  5000
+    timeout client  10000
+    timeout server  10000
 
+listen hbnb
+    bind 0.0.0.0:80
+    mode http
+    stats enable
+    stats uri /haproxy?stats
+    balance roundrobin
+    option httpclose
+    option forwardfor
+    server 284492-web-01 100.25.102.62:80 check
+    server 284492-web-02 52.87.24.245:80 check
+" >> /etc/haproxy/haproxy.cfg
 
-# Enable HAproxy init script
-if ! grep -q "ENABLED=1" /etc/default/haproxy; then
-    sudo sed -i '/#EXTRAOPTS="-de -m 16"/a ENABLED=1' /etc/default/haproxy
-fi
-# Restart HAproxy
-sudo service haproxy restart
+service haproxy start
