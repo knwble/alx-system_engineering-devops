@@ -49,4 +49,3 @@ backend servers
         balance roundrobin
         server 284492-web-01 100.25.102.62:80 check
         server 284492-web-02 52.87.24.245:80 check
-        
