@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-Accessing a REST API for todo lists of employees
+Exports information on employee's TODO list progress to CSV
 """
 
+import cvs
 import requests
 import sys
-import cvs
 
 if __name__ == '__main__':
     user_id = sys.argv[1]
